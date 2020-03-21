@@ -1,0 +1,42 @@
+{
+  "name": "superkassa",
+  "version": "1.0.0",
+  "description": "Test job for superkassa company",
+  "mait": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mitry1974/superkassa_test.git"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "D. Trushtalevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitry1974/superkassa_test/issues"
+  },
+  "homepage": "https://github.com/mitry1974/superkassa_test#readme",
+  "dependencies": {
+    "commander": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jest": "^25.1.0"
+  }
+}
